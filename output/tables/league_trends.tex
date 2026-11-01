@@ -1,0 +1,31 @@
+\begin{table}[htbp]\centering
+\caption{DiD estimates with league-specific linear trends, 1969--1976}
+\label{tab:league_trends}
+\begin{tabular}{lcccc}
+\hline\hline
+ & (1) & (2) & (3) & (4) \\
+ & BA & Runs/G & HR/G & Log att./home G \\
+\hline
+\multicolumn{5}{l}{\textit{Baseline TWFE}} \\
+AL $\times$ Post & 0.0090$^{**}$ & 0.274$^{*}$ & 0.0275$^{}$ & 0.132$^{}$ \\
+ & (0.0035) & (0.151) & (0.0531) & (0.146) \\
+[0.5ex]
+\multicolumn{5}{l}{\textit{AL linear trend, estimated 1969--1976}} \\
+AL $\times$ Post & 0.0143$^{**}$ & 0.500$^{**}$ & 0.1147$^{*}$ & 0.134$^{}$ \\
+ & (0.0054) & (0.191) & (0.0660) & (0.091) \\
+AL $\times$ (year $-$ 1972) & -0.0013$^{}$ & -0.057$^{}$ & -0.0221$^{}$ & -0.001$^{}$ \\
+ & (0.0014) & (0.049) & (0.0148) & (0.042) \\
+[0.5ex]
+\multicolumn{5}{l}{\textit{AL linear trend, estimated 1969--1972 (avg.\ post deviation)}} \\
+AL $\times$ Post & 0.0140$^{}$ & 0.705$^{**}$ & 0.2471$^{**}$ & 0.329$^{}$ \\
+ & (0.0092) & (0.289) & (0.1060) & (0.203) \\
+AL $\times$ (year $-$ 1972) & -0.0013$^{}$ & -0.109$^{}$ & -0.0556$^{*}$ & -0.050$^{}$ \\
+ & (0.0021) & (0.066) & (0.0271) & (0.061) \\
+[0.5ex]
+\hline
+Observations & 192 & 192 & 192 & 192 \\
+Clusters (franchises) & 24 & 24 & 24 & 24 \\
+\hline\hline
+\multicolumn{5}{p{0.9\linewidth}}{\footnotesize Notes: All models include team (team-city) and year fixed effects. In the last panel, post years are saturated with AL $\times$ year dummies, so the AL trend is identified from 1969--1972 only and the reported effect is the average 1973--1976 deviation from the extrapolated trend. Standard errors clustered by franchise in parentheses; inference uses $t(G-1)$. * $p<0.10$, ** $p<0.05$, *** $p<0.01$.} \\
+\end{tabular}
+\end{table}

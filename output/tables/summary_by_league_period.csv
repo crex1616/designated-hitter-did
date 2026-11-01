@@ -1,0 +1,17 @@
+outcome,league,period,mean,sd,N
+Batting average,AL,Pre (1969-72),0.2453,0.0109,48
+Batting average,AL,Post (1973-76),0.2579,0.0092,48
+Batting average,NL,Pre (1969-72),0.2520,0.0144,48
+Batting average,NL,Post (1973-76),0.2554,0.0111,48
+Runs per game,AL,Pre (1969-72),3.8984,0.5253,48
+Runs per game,AL,Post (1973-76),4.1710,0.3457,48
+Runs per game,NL,Pre (1969-72),4.0966,0.5407,48
+Runs per game,NL,Post (1973-76),4.1024,0.4697,48
+Home runs per game,AL,Pre (1969-72),0.7863,0.2175,48
+Home runs per game,AL,Post (1973-76),0.7107,0.1577,48
+Home runs per game,NL,Pre (1969-72),0.7655,0.1754,48
+Home runs per game,NL,Post (1973-76),0.6659,0.1696,48
+Log attendance per home game,AL,Pre (1969-72),9.3678,0.3329,48
+Log attendance per home game,AL,Post (1973-76),9.5119,0.2727,48
+Log attendance per home game,NL,Pre (1969-72),9.6534,0.4118,48
+Log attendance per home game,NL,Post (1973-76),9.6573,0.4525,48

@@ -1,0 +1,26 @@
+\begin{table}[htbp]\centering
+\caption{Effect of the designated hitter on AL teams, 1969--1976}
+\label{tab:did_main}
+\begin{tabular}{lcccc}
+\hline\hline
+ & (1) & (2) & (3) & (4) \\
+ & BA & Runs/G & HR/G & Log att./home G \\
+\hline
+\multicolumn{5}{l}{\textit{Two-way fixed effects}} \\
+AL $\times$ Post & 0.0090$^{**}$ & 0.274$^{*}$ & 0.0275$^{}$ & 0.132$^{}$ \\
+ & (0.0035) & (0.151) & (0.0531) & (0.146) \\
+$R^2$ & 0.616 & 0.604 & 0.627 & 0.640 \\
+[0.5ex]
+\multicolumn{5}{l}{\textit{Simple $2\times2$ (no FE)}} \\
+AL $\times$ Post & 0.0091$^{***}$ & 0.267$^{*}$ & 0.0239$^{}$ & 0.140$^{}$ \\
+ & (0.0032) & (0.132) & (0.0460) & (0.133) \\
+$R^2$ & 0.145 & 0.044 & 0.065 & 0.094 \\
+[0.5ex]
+\hline
+AL pre-period mean & 0.2453 & 3.898 & 0.7863 & 9.368 \\
+Observations & 192 & 192 & 192 & 192 \\
+Clusters (franchises) & 24 & 24 & 24 & 24 \\
+\hline\hline
+\multicolumn{5}{p{0.9\linewidth}}{\footnotesize Notes: AL and NL teams, 1969--1976. Post = 1 from 1973. TWFE includes team (team-city) and year fixed effects. Standard errors clustered by franchise in parentheses; inference uses $t(G-1)$. * $p<0.10$, ** $p<0.05$, *** $p<0.01$.} \\
+\end{tabular}
+\end{table}
